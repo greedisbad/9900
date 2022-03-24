@@ -1,0 +1,1 @@
+cd front-end && yarn install && yarn start

@@ -1,0 +1,7 @@
+{
+  "result": "SUCCESS",
+  "data": {
+    "token": "this_is_admin_token",
+    "role": "admin"
+  }
+}

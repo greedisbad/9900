@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #040421;
+  background-image: radial-gradient(#374342, #040421);
+}
+
+.bg-grad {
+  background-color: #040421;
+  background-image: linear-gradient(to bottom right, #084b47bd, #040421);
+  /* border: rgba(0, 217, 255, 0.438); */
+  border: rgba(255, 255, 255, 0.212);
+  border-style: outset;
+}
+
+.bg-grad-2 {
+  background-color: #084b47;
+  background-image: linear-gradient(to bottom left, #040421, #084b47bd);
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.pagination > li > a {
+  background-color: white;
+  background-image: linear-gradient(to bottom left, #040421, #084b47);
+  color: rgb(211, 210, 171);
+}
+/* 
+table {
+  cellspacing: 10;
+} */
+
+.ani {
+  animation: fade-in-keyframes 1s;
+}
+@keyframes fade-in-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* #img {
+  max-width: 100%;
+} */
